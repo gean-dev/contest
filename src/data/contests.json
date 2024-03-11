@@ -3,18 +3,12 @@
     "id": "1",
     "name": "Gean Dev Round #1",
     "time": "14 October 2023",
-    "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-  },
-  {
-    "id": "1",
-    "name": "Gean Dev Round #1",
-    "time": "14 October 2023",
     "link": "https://codeforces.com/group/y3JXgQG05K/contests"
   },
   {
-    "id": "1",
-    "name": "Gean Dev Round #1",
-    "time": "14 October 2023",
-    "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    "id": "2",
+    "name": "Gean Dev Round #2",
+    "time": "13 March 2024",
+    "link": "/contest/round-2"
   }
 ]
