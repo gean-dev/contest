@@ -1,14 +1,16 @@
 [
   {
     "id": "1",
-    "name": "Gean Dev Round #1",
-    "time": "14 October 2023",
+    "name": "Gean Dev Round 1",
+    "date": "14 October 2023",
+    "time": "18.00-23.00 GMT+7",
     "link": "https://codeforces.com/group/y3JXgQG05K/contests"
   },
   {
     "id": "2",
-    "name": "Gean Dev Round #2",
-    "time": "13 March 2024",
+    "name": "Gean Dev Round 2",
+    "date": "13 March 2024",
+    "time": "18.00-23.00 GMT+7",
     "link": "/contest/round-2"
   }
 ]
