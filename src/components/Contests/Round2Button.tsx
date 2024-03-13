@@ -48,7 +48,7 @@ export default function Round2Button() {
         <button
           onClick={() => {
             window.open(
-              "https://codeforces.com/group/y3JXgQG05K/contests",
+              "https://geandev.contest.codeforces.com/group/y3JXgQG05K/contests",
               "_blank",
               "noreferrer"
             );
