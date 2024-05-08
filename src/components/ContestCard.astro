@@ -1,0 +1,36 @@
+---
+interface Props {
+	contest: {
+    name: string;
+    date: string;
+    startTime: string;
+    endTime: string;
+    timeZone: string;
+    link: string;
+	},
+	ended: boolean;
+}
+
+const { contest, ended } = Astro.props;
+---
+
+<div class="w-full text-white border p-3 rounded-lg border-gray-300 px-4 sm:px-16">
+	<p class="text-2xl text-center font-semibold text-gray-200">
+		{contest.name}
+	</p>
+	<a href="#">
+		<!-- fix later -->
+		<p class="text-xl text-center mt-1 text-gray-300">
+			{contest.date}
+		</p>
+		<p class="text-xl text-center mt-1 text-gray-300">
+			{contest.startTime + "-" + contest.endTime + " " + contest.timeZone}
+		</p>
+	</a>
+	<button
+		onclick={`window.location.href='${contest.link}'`}
+		class="p-1 rounded-md text-center mt-2 bg-[#ff851b] w-full hover:bg-[#ff851bdc]"
+	>
+		{ended ? "View Results" : "Register"}
+	</button>
+</div>

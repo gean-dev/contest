@@ -1,0 +1,23 @@
+---
+import data from "../data/contests.json";
+import Contests from "./Contests.astro";
+
+const currentDate = new Date();
+const pastContests = data.filter((item) => {
+  const date = new Date(item.date + " " + item.endTime + " " + item.timeZone);
+  return date < currentDate;
+}).reverse();
+const upcomingContests = data.filter((item) => {
+  const date = new Date(item.date + " " + item.startTime + " " + item.timeZone);
+  return date > currentDate;
+});
+const ongoingContests = data.filter((item) => {
+  const startDate = new Date(item.date + " " + item.startTime + " " + item.timeZone);
+  const endDate = new Date(item.date + " " + item.endTime + " " + item.timeZone);
+  return startDate <= currentDate && endDate >= currentDate;
+});
+---
+
+<Contests title="Ongoing Contests" contests={ongoingContests} ended={false} />
+<Contests title="Upcoming Contests" contests={upcomingContests} ended={false} />
+<Contests title="Past Contests" contests={pastContests} ended={true} />

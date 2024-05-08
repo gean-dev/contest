@@ -1,16 +1,56 @@
 [
   {
     "id": "1",
-    "name": "Gean Dev Round 1",
-    "date": "14 October 2023",
-    "time": "18.00-23.00 GMT+7",
+    "name": "Pre TOI 19",
+    "date": "7 May 2023",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "timeZone": "GMT+7",
     "link": "https://geandev.contest.codeforces.com/group/y3JXgQG05K/contests"
   },
   {
     "id": "2",
+    "name": "Gean Dev DP Contest",
+    "date": "12 May 2023",
+    "startTime": "14:00",
+    "endTime": "19:00",
+    "timeZone": "GMT+7",
+    "link": "https://otog.in.th/contest/history/78"
+  },
+  {
+    "id": "3",
+    "name": "Gean Dev Round 1",
+    "date": "14 October 2023",
+    "startTime": "18:00",
+    "endTime": "23:00",
+    "timeZone": "GMT+7",
+    "link": "https://geandev.contest.codeforces.com/group/y3JXgQG05K/contests"
+  },
+  {
+    "id": "4",
     "name": "Gean Dev Round 2",
     "date": "13 March 2024",
-    "time": "18.00-23.00 GMT+7",
-    "link": "/contest/round-2"
+    "startTime": "18:00",
+    "endTime": "23:00",
+    "timeZone": "GMT+7",
+    "link": "https://geandev.contest.codeforces.com/group/y3JXgQG05K/contests"
+  },
+  {
+    "id": "5",
+    "name": "Pre TOI 20 Day 1",
+    "date": "10 May 2024",
+    "startTime": "18:00",
+    "endTime": "23:00",
+    "timeZone": "GMT+7",
+    "link": "https://geandev.contest.codeforces.com/group/y3JXgQG05K/contests"
+  },
+  {
+    "id": "6",
+    "name": "Pre TOI 20 Day 2",
+    "date": "11 May 2024",
+    "startTime": "18:00",
+    "endTime": "23:00",
+    "timeZone": "GMT+7",
+    "link": "https://geandev.contest.codeforces.com/group/y3JXgQG05K/contests"
   }
 ]
