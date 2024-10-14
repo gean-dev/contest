@@ -52,5 +52,23 @@
     "endTime": "23:00",
     "timeZone": "GMT+7",
     "link": "https://gean-dev.github.io/scoreboard/pretoi20"
+  },
+  {
+    "id": "7",
+    "name": "Geandev Round 3",
+    "date": "14 Oct 2024",
+    "startTime": "18:00",
+    "endTime": "23:00",
+    "timeZone": "GMT+7",
+    "link": "https://codeforces.com/group/y3JXgQG05K/contest/551387"
+  },
+  {
+    "id": "8",
+    "name": "Pre POSN 1",
+    "date": "15 Oct 2024",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "timeZone": "GMT+7",
+    "link": "https://geandev.contest.codeforces.com/"
   }
 ]
